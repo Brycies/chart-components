@@ -1,0 +1,167 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: hsl(27, 66%, 92%);
+}
+.background-container {
+  width: 390px;
+  height: 485px;
+  border-radius: 15px;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.balance-container {
+  width: 390px;
+  height: 85px;
+  border-radius: 15px;
+  background-color: hsl(10, 79%, 65%);
+}
+.statement-container {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 150px;
+  height: 75px;
+  background-color: back;
+}
+.logo {
+  width: 50px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.balance {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.amount {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.spending-container {
+  width: 390px;
+  height: 380px;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+h3 {
+  margin-left: 20px;
+}
+.bar-chart {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.mon-bar {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-right: 10px;
+  background-color: hsl(10, 79%, 65%);
+}
+.tue-bar {
+  width: 40px;
+  height: 75px;
+  border-radius: 4px;
+  margin-top: 45px;
+  margin-right: 10px;
+  background-color: hsl(10, 79%, 65%);
+}
+.wed-bar {
+  width: 40px;
+  height: 110px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: hsl(186, 34%, 60%);
+}
+.thu-bar {
+  width: 40px;
+  height: 70px;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-right: 10px;
+  background-color: hsl(10, 79%, 65%);
+}
+.fri-bar {
+  width: 40px;
+  height: 55px;
+  border-radius: 4px;
+  margin-top: 65px;
+  margin-right: 10px;
+  background-color: hsl(10, 79%, 65%);
+}
+.sat-bar {
+  width: 40px;
+  height: 90px;
+  border-radius: 4px;
+  margin-top: 30px;
+  background-color: hsl(10, 79%, 65%);
+}
+.sun-bar {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-left: 10px;
+  background-color: hsl(10, 79%, 65%);
+}
+.days-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+p {
+  margin-left: 2px;
+  font-size: 12px;
+  margin-right: 28px;
+  color: grey;
+}
+.total-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: rgb(221, 209, 209);
+}
+.totals {
+  margin-top: 20px;
+}
+.current-balance {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  margin-top: 0px;
+}
+.month-container {
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.pcntage {
+  margin-left: 70px;
+  margin-bottom: 0px;
+  font-size: 11px;
+  font-weight: bolder;
+  color: black;
+}
+.last-period {
+  margin-top: 0px;
+  font-size: 13px;
+}
